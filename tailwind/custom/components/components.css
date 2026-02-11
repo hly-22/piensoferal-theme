@@ -91,6 +91,18 @@
 	@apply px-4 py-2 text-white hover:bg-neutral-800;
 }
 
+.search-form {
+	@apply flex
+}
+
+.search-field {
+	@apply w-full border border-gray-300 px-3 py-2 text-sm rounded-l text-black
+}
+
+.search-submit {
+	@apply bg-gray-500 text-white px-4 rounded-r hover:bg-gray-700 transition
+}
+
 /* FOOTER MENUS */
 #footer-1-menu .menu-item,
 #footer-2-menu .menu-item {

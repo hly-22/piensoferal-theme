@@ -10,7 +10,7 @@
 
 ?>
 
-<header id="masthead" class="flex px-10 py-2 gap-5 items-center bg-black text-white">
+<header id="masthead" class="flex px-10 py-2 gap-5 items-center bg-black text-white font-sans">
 
 	<div class="flex-none">
 		<!-- <?php
@@ -53,11 +53,34 @@
 		?>
 	</nav><!-- #site-navigation -->
 
-	<a href="/" aria-label="Search">
-		<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-			<circle cx="11" cy="11" r="7" stroke-width="2" />
-			<line x1="16.65" y1="16.65" x2="21" y2="21" stroke-width="2" stroke-linecap="round" />
-		</svg>
-	</a>
+	<!-- Search -->
+	<div class="relative group">
+
+		<button aria-label="Search">
+			<svg xmlns="http://www.w3.org/2000/svg"
+				class="w-6 h-6"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke="currentColor">
+				<circle cx="11" cy="11" r="7" stroke-width="2" />
+				<line x1="16.65" y1="16.65" x2="21" y2="21"
+					stroke-width="2"
+					stroke-linecap="round" />
+			</svg>
+		</button>
+
+		<div
+			class="absolute right-0 w-64 bg-white p-4 shadow-lg rounded
+		opacity-0 invisible translate-y-2
+		transition-all duration-200 ease-out
+		group-hover:opacity-100
+		group-hover:visible
+		group-hover:translate-y-0">
+			<?php get_search_form(); ?>
+		</div>
+
+	</div>
+
+
 
 </header><!-- #masthead -->
