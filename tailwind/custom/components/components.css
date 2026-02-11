@@ -92,11 +92,27 @@
 }
 
 /* FOOTER MENUS */
-#footer-1-menu .menu-item {
-	@apply border-b border-gray-300 py-2 text-yellow-700 text-sm
+#footer-1-menu .menu-item,
+#footer-2-menu .menu-item {
+	@apply relative border-b border-gray-300 py-2 pl-5 text-footer-item text-sm hover:text-black
 }
 
-#footer-1-menu .menu-item::before {
-	content: '›';
-	@apply pr-2 text-green-600
+#footer-1-menu .menu-item::before,
+.footer-1-last-item::before,
+#footer-2-menu .menu-item::before {
+	content: '\203A';
+	@apply absolute left-0 pr-2 text-footer-arrow
+}
+
+#footer-2-menu .menu-highlight {
+	@apply font-menu-highlight border-none
+}
+
+#footer-2-menu .menu-highlight::before {
+	content: '>';
+	@apply absolute left-0 pr-2 text-footer-item
+}
+
+#footer-2-menu .menu-item:last-child {
+	@apply border-t
 }

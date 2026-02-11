@@ -25,6 +25,10 @@
 	--container-content: var(--wp--style--global--content-size);
 	--container-wide: var(--wp--style--global--wide-size);
 
+	--color-whatsapp: #25D366;
+	--color-footer-arrow: #627d47;
+	--color-footer-item: #ac7e39;
+
 	/**
 	 * These are the default `font-family` theme variables included with
      * Tailwind. You can update them below by adding custom fonts at the
@@ -37,16 +41,18 @@
 	 * https://tailwindcss.com/docs/theme#default-theme-variable-reference
 	 */
 	--font-sans:
-		ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+		"Lato", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 	--font-mono:
 		ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
 		"Liberation Mono", "Courier New", monospace;
 
+	--font-menu-highlight:
+		"Montserrat", ui-serif;
 	/**
 	 * Add your theme below:
 	 */
 
-	 
+
 }
