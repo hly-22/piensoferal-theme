@@ -23,7 +23,7 @@
                 <div class="grid grid-cols-2 gap-4 gap-x-10 mb-6 w-full max-w-5xl">
                     <a href="/consultorio" class="flex justify-center border border-white text-white text-center text-lg tracking-widest py-3 px-4 items-center rounded-full hover:bg-white hover:text-black transition">CONSULTA AL NUTRICIONISTA</a>
                     <a href="/pide-tu-cita" class="flex justify-center border border-white text-white text-center text-lg tracking-widest py-3 px-4 items-center rounded-full hover:bg-white hover:text-black transition">PIDE CITA AL NUTRICIONISTA</a>
-                    <a href="/testing-page" class="flex justify-center border border-white text-white text-center text-lg tracking-widest py-3 px-4 items-center rounded-full hover:bg-white hover:text-black transition">GUIA DE SALUD ANIMAL</a>
+                    <a href="/guia-de-salud-animal/" class="flex justify-center border border-white text-white text-center text-lg tracking-widest py-3 px-4 items-center rounded-full hover:bg-white hover:text-black transition">GUIA DE SALUD ANIMAL</a>
                     <a href="/formacion" class="flex justify-center border border-white text-white text-center text-lg tracking-widest py-3 px-4 items-center rounded-full hover:bg-white hover:text-black transition">FORMACIÓN NUTRICIONAL ANIMAL</a>
                 </div>
 
