@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section id="primary">
-    <main id="main" class="font-sans">
+    <main id="main-front" class="font-sans">
 
         <!-- HERO -->
         <section class="relative w-full">
