@@ -128,3 +128,16 @@
 #footer-2-menu .menu-item:last-child {
 	@apply border-t
 }
+
+/* HOMEPAGE */
+.homepage-description {
+	@apply max-w-5xl mx-auto py-16 text-center;
+}
+
+.homepage-description h3 {
+	@apply text-3xl font-bold mb-6;
+}
+
+.homepage-description p {
+	@apply text-xl font-light text-left mb-3;
+}

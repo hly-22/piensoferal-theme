@@ -25,6 +25,8 @@
 	--container-content: var(--wp--style--global--content-size);
 	--container-wide: var(--wp--style--global--wide-size);
 
+	--color-homepage-bg: #151518;
+
 	--color-whatsapp: #25D366;
 	--color-footer-arrow: #627d47;
 	--color-footer-item: #ac7e39;
