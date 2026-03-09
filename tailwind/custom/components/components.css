@@ -130,6 +130,10 @@
 }
 
 /* HOMEPAGE */
+.homepage-button {
+	@apply flex justify-center border border-white text-white text-center text-lg tracking-widest py-3 px-4 items-center rounded-full hover:bg-white hover:text-black transition;
+}
+
 .homepage-description {
 	@apply max-w-5xl mx-auto py-16 text-center;
 }
