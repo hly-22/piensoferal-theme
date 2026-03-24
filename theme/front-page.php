@@ -14,7 +14,7 @@
 
                 <!-- Title -->
                 <div class="text-center text-white font-bold mt-6">
-                    <h1 class="text-5xl">Nutrición consciente</h1>
+                    <p class="text-5xl">Nutrición consciente</p>
                     <p class="text-4xl">para una</p>
                     <p class="text-5xl">vida saludable</p>
                 </div>

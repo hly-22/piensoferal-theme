@@ -7,9 +7,24 @@
  * file and is applied both to the front end and in the block editor.
  */
 body {
-	@apply bg-background text-foreground font-sans;
+	@apply bg-main-bg text-foreground font-sans;
 }
 
-/* h2.wp-block-heading {
-	@apply font-mono prose text-amber-400 text-2xl;
+#main {
+	@apply my-20 mx-10;
+}
+
+h2.wp-block-heading {
+	@apply text-center text-black text-xl;
+}
+
+h3.wp-block-heading {
+	@apply text-center;
+}
+
+/* h4.wp-block-heading {
+	@apply 
 } */
+.from-code {
+	@apply text-white;
+}
