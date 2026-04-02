@@ -11,7 +11,7 @@ body {
 }
 
 #main {
-	@apply my-20 mx-50;
+	@apply my-20 mx-20 lg:mx-50;
 }
 
 /* HEADINGS */
