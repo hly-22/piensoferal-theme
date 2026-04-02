@@ -11,7 +11,7 @@ body {
 }
 
 #main {
-	@apply my-20 mx-10;
+	@apply my-20 mx-50;
 }
 
 h2.wp-block-heading {
@@ -25,6 +25,7 @@ h3.wp-block-heading {
 /* h4.wp-block-heading {
 	@apply 
 } */
+ 
 .from-code {
 	@apply text-white;
 }
