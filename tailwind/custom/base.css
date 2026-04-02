@@ -15,12 +15,12 @@ body {
 }
 
 h2.wp-block-heading {
-	@apply text-center text-black text-xl;
+	@apply text-black text-xl;
 }
 
-h3.wp-block-heading {
+/* h3.wp-block-heading {
 	@apply text-center;
-}
+} */
 
 /* h4.wp-block-heading {
 	@apply 
